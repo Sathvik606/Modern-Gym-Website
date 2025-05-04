@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join Us - BEAST Gym</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">BEAST</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="join.html">Join Us</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="membership-section">
+      <h1>Choose Your Membership Plan</h1>
+      <div class="membership-cards">
+        <div class="card">
+          <h2>1 Month Plan</h2>
+          <p class="price">₹10000</p>
+          <p>Best for short-term goals.</p>
+          <p>(Valid for 30 days from joining.)</p>
+        </div>
+        <div class="card">
+          <h2>3 Months Plan</h2>
+          <p class="price">₹25000</p>
+          <p>Student-friendly plan</p>
+          <p>(Valid for 3 consecutive months.)</p>
+        </div>
+        <div class="card">
+          <h2>6 Months Plan</h2>
+          <p class="price">₹45000</p>
+          <p>Great for long-term consistency.</p>
+          <p>Unlimited access for 6 months.</p>
+        </div>
+        <div class="card">
+          <h2>90 Days Flex Plan</h2>
+          <p class="price">₹30000</p>
+          <p>Come any 90 days between January–December.</p>
+          <p>(Not tied to continuous months.)</p>
+        </div>
+        <div class="card">
+            <h2>ONE YEAR PLAN</h2>
+            <p class="price">₹100000</p>
+            <p>Ideal to build a complete fit and athletic physique.</p>
+            <p>(Unlimited access for one complete year.)</p> 
+      </div>
+    </section>
+
+    <section class="membership-form">
+      <h2>Join the BEAST Gym Today!</h2>
+      <form id="joinForm">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+    
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" required />
+        </div>
+    
+        <div class="form-group">
+          <label for="email">Email ID</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+    
+        <div class="form-group">
+          <label for="plan">Choose a Plan</label>
+          <select id="plan" name="plan" required>
+            <option value="" disabled selected>Select Plan</option>
+            <option value="monthly">1 Month - ₹10000</option>
+            <option value="3months">3 Months - ₹25000</option>
+            <option value="6months">6 Months - ₹45000</option>
+            <option value="90days">90 Days Flex - ₹30000</option>
+            <option value="1year">ONE YEAR - ₹100000</option>
+          </select>
+        </div>
+    
+        <button type="submit">Submit</button>
+      </form>
+      <div id="message" class="hidden">Thanks for joining! We'll get in touch soon.</div>
+
+    </section>
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>

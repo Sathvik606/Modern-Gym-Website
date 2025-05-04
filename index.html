@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BEAST Gym</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="topbar">
+        <p>+91 8247568936 | mahith@beastgym.in</p>
+        <p>Welcome to BEAST Gym India.</p>
+      </div>
+
+      <nav class="navbar">
+        <div class="logo">BEAST</div>
+        <ul class="nav-links">
+          <li>Home</li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="join.html">Join Us</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-left">
+        <h1>TRANSFORM YOUR BODY WITH US</h1>
+        <p>Push Beyond Limits. Train Like a BEAST.</p>
+      </div>
+      <div class="hero-right">
+        <img
+          src="https://i.pinimg.com/736x/ff/2a/f1/ff2af185a5536376748ae29cfdbde923.jpg"
+          alt="Training"
+        />
+      </div>
+    </section>
+
+    <section class="workout-section">
+      <div class="container">
+        <h2>Personalized Workout Plans</h2>
+        <p>
+          Discover tailored fitness routines designed for every age group and
+          fitness level.
+        </p>
+        <button id="view-workouts-btn" class="btn primary-btn">
+          Explore Workouts By Age
+        </button>
+      </div>
+    </section>
+
+    <div class="workout-modal">
+      <div class="workout-modal-content">
+        <button class="close-modal">&times;</button>
+        <iframe
+          id="workout-frame"
+          src="workouts.html"
+          width="100%"
+          height="600px"
+          frameborder="0"
+        ></iframe>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

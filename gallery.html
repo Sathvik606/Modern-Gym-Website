@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BEAST - Gallery</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="gallery-hero">
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <h1>Our Premium Facilities</h1>
+        <p>Experience luxury fitness at its finest</p>
+      </div>
+    </section>
+
+    <section class="gallery-filters">
+      <div class="filter-container">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="gym">Gym Area</button>
+        <button class="filter-btn" data-filter="classes">Classes</button>
+        <button class="filter-btn" data-filter="spa">Spa & Wellness</button>
+      </div>
+    </section>
+
+    <section class="gallery-container">
+      <!-- Gallery items will be dynamically added here -->
+    </section>
+
+    <!-- Lightbox for image viewing -->
+    <div class="lightbox" id="lightbox">
+      <span class="close-lightbox">&times;</span>
+      <div class="lightbox-content">
+        <div class="lightbox-controls">
+          <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+          <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        <img src="" alt="Gallery Image" class="lightbox-img" />
+        <div class="img-caption"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

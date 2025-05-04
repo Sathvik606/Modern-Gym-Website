@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness Workouts By Age</title>
+    <link rel="stylesheet" href="workouts.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Fitness Workouts By Age Group</h1>
+      <p class="subtitle">Tailored exercise plans for every stage of life</p>
+    </header>
+
+    <div class="container">
+      <div class="age-selector">
+        <button class="age-btn active" data-age="kids">Ages 10-15</button>
+        <button class="age-btn" data-age="teens">Ages 16-19</button>
+        <button class="age-btn" data-age="young-adults">Ages 20-35</button>
+        <button class="age-btn" data-age="adults">Ages 36-55</button>
+        <button class="age-btn" data-age="seniors">Ages 56+</button>
+      </div>
+
+      <!-- Kids Section (10-15) -->
+      <div id="kids" class="workout-content active">
+        <h2>Workouts for Ages 10-15</h2>
+        <p>
+          At this age, the focus should be on developing fundamental movement
+          skills, building body awareness, and making fitness fun. Exercises
+          should be supervised and appropriate for growing bodies.
+        </p>
+
+        <h3>Cardiovascular Exercises</h3>
+        <div class="exercise-grid">
+          <div class="exercise-card">
+            <span class="muscle-group">Cardio</span>
+            <p class="exercise-title">Jumping Jacks</p>
+            <p class="exercise-desc">
+              Start with feet together and arms at sides, then jump to a
+              position with legs apart and arms overhead. 2-3 sets of 20 reps
+              with breaks in between.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Cardio</span>
+            <p class="exercise-title">Obstacle Courses</p>
+            <p class="exercise-desc">
+              Set up a fun course with elements that require running, jumping,
+              crawling, and balancing. This improves coordination and makes
+              fitness enjoyable.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Cardio</span>
+            <p class="exercise-title">Dance Sessions</p>
+            <p class="exercise-desc">
+              Following dance routines or free dancing to favorite songs for
+              15-20 minutes improves coordination and cardiovascular health.
+            </p>
+          </div>
+        </div>
+
+        <h3>Strength Building Exercises</h3>
+        <div class="exercise-grid">
+          <div class="exercise-card">
+            <span class="muscle-group">Upper Body</span>
+            <p class="exercise-title">Modified Push-Ups</p>
+            <p class="exercise-desc">
+              Perform push-ups from knees rather than toes to build upper body
+              strength gradually. 2 sets of 10 repetitions with proper form.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Core</span>
+            <p class="exercise-title">Superman Holds</p>
+            <p class="exercise-desc">
+              Lie face down with arms extended overhead, then lift arms and legs
+              off the ground. Hold for 5-10 seconds, 10 repetitions.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Lower Body</span>
+            <p class="exercise-title">Bodyweight Squats</p>
+            <p class="exercise-desc">
+              Stand with feet shoulder-width apart, lower into seated position,
+              then return to standing. Focus on form rather than speed. 3 sets
+              of 12 reps.
+            </p>
+          </div>
+        </div>
+
+        <h3>Flexibility & Balance</h3>
+        <div class="exercise-grid">
+          <div class="exercise-card">
+            <span class="muscle-group">Flexibility</span>
+            <p class="exercise-title">Standing Toe Touches</p>
+            <p class="exercise-desc">
+              Stand with feet shoulder-width apart and gently bend at waist to
+              touch toes. Hold for 10-15 seconds, repeat 5 times.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Balance</span>
+            <p class="exercise-title">Flamingo Stand</p>
+            <p class="exercise-desc">
+              Stand on one leg with the other foot raised off the ground. Try to
+              maintain balance for 30 seconds, then switch legs.
+            </p>
+          </div>
+        </div>
+
+        <div class="safety-notice">
+          <h3>Safety Notes for This Age Group</h3>
+          <ul>
+            <li>Focus on proper form rather than weight or intensity</li>
+            <li>Make exercise fun and varied to maintain interest</li>
+            <li>Ensure proper hydration before, during, and after exercise</li>
+            <li>Allow for adequate rest between training sessions</li>
+            <li>Adult supervision is recommended, especially for beginners</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Teens Section (16-19) -->
+      <div id="teens" class="workout-content">
+        <h2>Workouts for Ages 16-19</h2>
+        <p>
+          During these years, teens can begin more structured training as their
+          bodies mature. Focus on technique, consistency, and gradual
+          progression rather than heavy weights or extreme intensity.
+        </p>
+
+        <h3>Cardiovascular Training</h3>
+        <div class="exercise-grid">
+          <div class="exercise-card">
+            <span class="muscle-group">Cardio</span>
+            <p class="exercise-title">HIIT Training</p>
+            <p class="exercise-desc">
+              High-intensity interval training with 30 seconds of maximum effort
+              followed by 1 minute of recovery. Examples include sprinting,
+              burpees, or jump squats. 15-20 minutes total.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Cardio</span>
+            <p class="exercise-title">Sports Participation</p>
+            <p class="exercise-desc">
+              Team sports or individual activities like soccer, basketball,
+              swimming, or cycling provide excellent cardiovascular benefits and
+              teach teamwork.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Cardio</span>
+            <p class="exercise-title">Jogging/Running</p>
+            <p class="exercise-desc">
+              Start with intervals of jogging and walking for 20 minutes,
+              gradually increasing jogging time. Aim for 3-4 sessions per week.
+            </p>
+          </div>
+        </div>
+
+        <h3>Strength Training</h3>
+        <div class="exercise-grid">
+          <div class="exercise-card">
+            <span class="muscle-group">Upper Body</span>
+            <p class="exercise-title">Push-Ups</p>
+            <p class="exercise-desc">
+              Standard push-ups with hands shoulder-width apart. Focus on full
+              range of motion and controlled movement. 3 sets of 12-15 reps.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Upper Body</span>
+            <p class="exercise-title">Pull-Ups/Assisted Pull-Ups</p>
+            <p class="exercise-desc">
+              Begin with assisted pull-ups if needed, working toward unassisted.
+              Focus on engaging back muscles. 3 sets of 8-10 reps.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Lower Body</span>
+            <p class="exercise-title">Lunges</p>
+            <p class="exercise-desc">
+              Step forward into a lunge position, lowering until both knees are
+              at 90 degrees. Return and repeat with opposite leg. 3 sets of 10
+              reps each leg.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Core</span>
+            <p class="exercise-title">Plank Variations</p>
+            <p class="exercise-desc">
+              Standard planks, side planks, and plank with leg lifts. Hold each
+              position for 30-60 seconds, 3 sets each.
+            </p>
+          </div>
+        </div>
+
+        <h3>Flexibility & Mobility</h3>
+        <div class="exercise-grid">
+          <div class="exercise-card">
+            <span class="muscle-group">Full Body</span>
+            <p class="exercise-title">Dynamic Stretching Routine</p>
+            <p class="exercise-desc">
+              Incorporate leg swings, arm circles, torso rotations, and hip
+              openers before workouts to prepare muscles for activity.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Recovery</span>
+            <p class="exercise-title">Yoga Basics</p>
+            <p class="exercise-desc">
+              Basic yoga poses like downward dog, warrior poses, and child's
+              pose to improve flexibility and body awareness. 20-30 minute
+              sessions.
+            </p>
+          </div>
+        </div>
+
+        <div class="safety-notice">
+          <h3>Safety Notes for This Age Group</h3>
+          <ul>
+            <li>Learn proper form before increasing weight or intensity</li>
+            <li>
+              Allow 48 hours recovery for muscle groups between strength
+              sessions
+            </li>
+            <li>Focus on balanced development rather than aesthetics</li>
+            <li>Stay hydrated and maintain proper nutrition</li>
+            <li>
+              Consider working with a qualified coach or trainer when beginning
+              weight training
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Young Adults Section (20-35) -->
+      <div id="young-adults" class="workout-content">
+        <h2>Workouts for Ages 20-35</h2>
+        <p>
+          This age range represents peak physical potential for most people.
+          Training can be more intensive and specialized based on individual
+          goals, whether strength, muscle building, endurance, or athletic
+          performance.
+        </p>
+
+        <h3>Cardiovascular Training</h3>
+        <div class="exercise-grid">
+          <div class="exercise-card">
+            <span class="muscle-group">Cardio</span>
+            <p class="exercise-title">Tabata Intervals</p>
+            <p class="exercise-desc">
+              20 seconds of maximum effort followed by 10 seconds rest, repeated
+              for 8 rounds (4 minutes). Choose exercises like mountain climbers,
+              burpees, or kettlebell swings.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Cardio</span>
+            <p class="exercise-title">Running Progression</p>
+            <p class="exercise-desc">
+              Mix steady-state runs with interval training. Start with 3-5km
+              runs, gradually increasing distance or adding hill training for
+              intensity.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Cardio</span>
+            <p class="exercise-title">Indoor Cycling</p>
+            <p class="exercise-desc">
+              Spin classes or programmed cycling workouts with intervals of
+              seated and standing pedaling at varying resistance. 30-45 minute
+              sessions.
+            </p>
+          </div>
+        </div>
+
+        <h3>Strength Training - Upper Body</h3>
+        <div class="exercise-grid">
+          <div class="exercise-card">
+            <span class="muscle-group">Chest</span>
+            <p class="exercise-title">Bench Press</p>
+            <p class="exercise-desc">
+              Barbell or dumbbell bench press with appropriate weight. Focus on
+              controlled lowering and powerful pressing. 4 sets of 8-12 reps.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Back</span>
+            <p class="exercise-title">Bent-Over Rows</p>
+            <p class="exercise-desc">
+              Using barbell or dumbbells, bend at hips and pull weight toward
+              lower chest/abdomen with elbows close to body. 4 sets of 10-12
+              reps.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Shoulders</span>
+            <p class="exercise-title">Overhead Press</p>
+            <p class="exercise-desc">
+              From standing position, press weights from shoulder level to
+              overhead. Can be done with barbell or dumbbells. 3 sets of 8-10
+              reps.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Arms</span>
+            <p class="exercise-title">Tricep Dips</p>
+            <p class="exercise-desc">
+              Using parallel bars or bench, lower body by bending arms to 90
+              degrees, then press back up. 3 sets of 12-15 reps.
+            </p>
+          </div>
+        </div>
+
+        <h3>Strength Training - Lower Body</h3>
+        <div class="exercise-grid">
+          <div class="exercise-card">
+            <span class="muscle-group">Legs</span>
+            <p class="exercise-title">Barbell Squats</p>
+            <p class="exercise-desc">
+              With barbell across upper back, squat down until thighs are
+              parallel to floor, then return to standing. 4 sets of 8-12 reps.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Legs</span>
+            <p class="exercise-title">Romanian Deadlifts</p>
+            <p class="exercise-desc">
+              With slight bend in knees, hinge at hips while keeping back
+              straight to lower weight, then return to standing. 3 sets of 10-12
+              reps.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Legs</span>
+            <p class="exercise-title">Bulgarian Split Squats</p>
+            <p class="exercise-desc">
+              With rear foot elevated on bench, lower into lunge position until
+              front thigh is parallel to floor. 3 sets of 10 reps per leg.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Core</span>
+            <p class="exercise-title">Hanging Leg Raises</p>
+            <p class="exercise-desc">
+              Hang from pull-up bar and raise legs to 90 degrees using abdominal
+              strength. Keep movement controlled. 3 sets of 12-15 reps.
+            </p>
+          </div>
+        </div>
+
+        <div class="safety-notice">
+          <h3>Recommended Weekly Training Split</h3>
+          <ul>
+            <li>Monday: Upper Body Strength + HIIT</li>
+            <li>Tuesday: Lower Body Strength + Core</li>
+            <li>Wednesday: Steady-State Cardio or Active Recovery</li>
+            <li>Thursday: Upper Body Hypertrophy + Core</li>
+            <li>Friday: Lower Body Hypertrophy + HIIT</li>
+            <li>Saturday: Recreational Activity or Sports</li>
+            <li>Sunday: Rest or Light Activity</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Adults Section (36-55) -->
+      <div id="adults" class="workout-content">
+        <h2>Workouts for Ages 36-55</h2>
+        <p>
+          During this age range, focus shifts toward maintaining muscle mass,
+          joint health, and metabolic function. Recovery becomes increasingly
+          important, and training should be adapted to address individual
+          limitations.
+        </p>
+
+        <h3>Cardiovascular Health</h3>
+        <div class="exercise-grid">
+          <div class="exercise-card">
+            <span class="muscle-group">Cardio</span>
+            <p class="exercise-title">Zone 2 Training</p>
+            <p class="exercise-desc">
+              Moderate-intensity cardio (60-70% of max heart rate) where you can
+              still hold a conversation. Walking, cycling, or swimming for 30-45
+              minutes, 3-4 times weekly.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Cardio</span>
+            <p class="exercise-title">Rowing Machine</p>
+            <p class="exercise-desc">
+              Low-impact full-body cardio. Mix steady-state rowing with
+              intervals. 20-30 minutes, 2-3 times per week.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Cardio</span>
+            <p class="exercise-title">Elliptical Intervals</p>
+            <p class="exercise-desc">
+              3 minutes moderate pace followed by 1 minute higher intensity.
+              Repeat for 20-30 minutes total. Joint-friendly cardio option.
+            </p>
+          </div>
+        </div>
+
+        <h3>Strength Maintenance</h3>
+        <div class="exercise-grid">
+          <div class="exercise-card">
+            <span class="muscle-group">Full Body</span>
+            <p class="exercise-title">Dumbbell Thrusters</p>
+            <p class="exercise-desc">
+              Holding dumbbells at shoulder height, squat down then drive up and
+              press weights overhead. Combines lower and upper body. 3 sets of
+              12 reps.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Upper Body</span>
+            <p class="exercise-title">TRX Row</p>
+            <p class="exercise-desc">
+              Using suspension trainer, lean back with straight body and pull
+              chest toward handles. Adjustable difficulty based on foot
+              position. 3 sets of 12-15 reps.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Lower Body</span>
+            <p class="exercise-title">Goblet Squats</p>
+            <p class="exercise-desc">
+              Hold dumbbell or kettlebell at chest and perform squats with
+              emphasis on depth and form. Helps maintain hip mobility. 3 sets of
+              12-15 reps.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Core</span>
+            <p class="exercise-title">Bird Dog</p>
+            <p class="exercise-desc">
+              From hands and knees, extend opposite arm and leg while
+              maintaining neutral spine. Excellent for core stability. 3 sets of
+              10 reps each side.
+            </p>
+          </div>
+        </div>
+
+        <h3>Mobility & Flexibility</h3>
+        <div class="exercise-grid">
+          <div class="exercise-card">
+            <span class="muscle-group">Mobility</span>
+            <p class="exercise-title">Hip Mobility Routine</p>
+            <p class="exercise-desc">
+              Series of exercises including hip circles, fire hydrants, and
+              seated rotations to maintain hip function. 5-10 minutes daily.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Flexibility</span>
+            <p class="exercise-title">Thoracic Spine Stretches</p>
+            <p class="exercise-desc">
+              Foam roller extensions and rotations to maintain upper back
+              mobility and posture. 5 minutes, 3-4 times weekly.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Recovery</span>
+            <p class="exercise-title">Yoga for Adults</p>
+            <p class="exercise-desc">
+              Focus on poses that counteract sitting and improve overall
+              mobility. 20-30 minute sessions, 2-3 times weekly.
+            </p>
+          </div>
+        </div>
+
+        <div class="safety-notice">
+          <h3>Important Considerations for This Age Group</h3>
+          <ul>
+            <li>
+              Prioritize recovery with at least one full rest day between
+              strength sessions
+            </li>
+            <li>
+              Include proper warm-up (5-10 minutes) before any intense activity
+            </li>
+            <li>
+              Consider working with a physical therapist to address any existing
+              limitations
+            </li>
+            <li>
+              Focus on consistent, moderate training rather than extreme
+              sessions
+            </li>
+            <li>
+              Pay attention to joint health through appropriate exercise
+              selection
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Seniors Section (56+) -->
+      <div id="seniors" class="workout-content">
+        <h2>Workouts for Ages 56+</h2>
+        <p>
+          Exercise becomes increasingly important for maintaining independence,
+          preventing falls, and supporting overall health. Focus on functional
+          movement patterns that support daily activities.
+        </p>
+
+        <h3>Cardiovascular Health</h3>
+        <div class="exercise-grid">
+          <div class="exercise-card">
+            <span class="muscle-group">Cardio</span>
+            <p class="exercise-title">Walking Program</p>
+            <p class="exercise-desc">
+              Regular walking with gradual increases in distance or pace. Start
+              with 15-20 minutes and work up to 30+ minutes, 4-5 times per week.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Cardio</span>
+            <p class="exercise-title">Water Aerobics</p>
+            <p class="exercise-desc">
+              Joint-friendly cardiovascular exercise in pool setting. Classes
+              typically run 45-60 minutes and provide both cardio and resistance
+              training.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Cardio</span>
+            <p class="exercise-title">Recumbent Bicycle</p>
+            <p class="exercise-desc">
+              Seated cycling with back support. Start with 10-15 minutes and
+              gradually increase to 20-30 minutes, 3 times per week.
+            </p>
+          </div>
+        </div>
+
+        <h3>Functional Strength</h3>
+        <div class="exercise-grid">
+          <div class="exercise-card">
+            <span class="muscle-group">Lower Body</span>
+            <p class="exercise-title">Chair Squats</p>
+            <p class="exercise-desc">
+              Using chair for safety, practice standing up and sitting down with
+              controlled movement. Progress to holding position just above
+              chair. 2-3 sets of 10-12 reps.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Upper Body</span>
+            <p class="exercise-title">Wall Push-Ups</p>
+            <p class="exercise-desc">
+              Standing push-ups against wall, gradually increasing angle of
+              difficulty as strength improves. 2-3 sets of 10-15 reps.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Core</span>
+            <p class="exercise-title">Seated Core Exercises</p>
+            <p class="exercise-desc">
+              While seated in chair, perform gentle twists, leg lifts, and
+              forward leans to engage core muscles. 2 sets of 10-12 reps each
+              movement.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Full Body</span>
+            <p class="exercise-title">Resistance Band Work</p>
+            <p class="exercise-desc">
+              Using light resistance bands for rows, chest presses, and arm
+              exercises. Focus on control rather than resistance level. 2-3 sets
+              of 12-15 reps.
+            </p>
+          </div>
+        </div>
+
+        <h3>Balance & Flexibility</h3>
+        <div class="exercise-grid">
+          <div class="exercise-card">
+            <span class="muscle-group">Balance</span>
+            <p class="exercise-title">Supported Single-Leg Balance</p>
+            <p class="exercise-desc">
+              Practice standing on one leg while holding chair or counter.
+              Progress to unsupported. Hold for 15-30 seconds per leg, 3 times
+              each.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Flexibility</span>
+            <p class="exercise-title">Seated Stretching Routine</p>
+            <p class="exercise-desc">
+              Gentle stretches for major muscle groups: neck, shoulders, back,
+              hips, and legs. Hold each stretch 20-30 seconds without bouncing.
+            </p>
+          </div>
+          <div class="exercise-card">
+            <span class="muscle-group">Mind-Body</span>
+            <p class="exercise-title">Chair Yoga or Tai Chi</p>
+            <p class="exercise-desc">
+              Modified practices focusing on breathing, gentle movement, and
+              balance. 20-30 minute sessions, 2-3 times weekly.
+            </p>
+          </div>
+        </div>
+
+        <div class="safety-notice">
+          <h3>Safety Guidelines for Senior Exercise</h3>
+          <ul>
+            <li>
+              Consult with healthcare provider before starting new exercise
+              program
+            </li>
+            <li>
+              Always have something stable nearby to hold if needed during
+              balance exercises
+            </li>
+            <li>Stay hydrated and exercise in well-ventilated environments</li>
+            <li>
+              Stop any exercise that causes pain (distinguish between discomfort
+              and pain)
+            </li>
+            <li>
+              Start with shorter sessions (10-15 minutes) and gradually increase
+              duration
+            </li>
+            <li>
+              Consider working with a trainer experienced in senior fitness
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="back-to-top">↑</div>
+
+    <script src="workouts.js"></script>
+  </body>
+</html>
